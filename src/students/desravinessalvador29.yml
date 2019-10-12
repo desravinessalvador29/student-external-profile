@@ -14,7 +14,7 @@ basic_info:
     motto: Key to Success = Hard Work + Determination
 
     # focus
-    focus: Taking over
+    focus: Working hard and learning new things everyday
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -30,18 +30,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/men/46.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: desravines.salvador001@ayahoo.com #optional
     phone: (305) 748-9196 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+
 
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: desravinessalvador29
 
-    twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
@@ -64,7 +61,7 @@ education:
     - degree: BS in Criminal Justice
       university: Miami-Dade College
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Miami_Dade_College_logo.svg/1200px-Miami_Dade_College_logo.svg.png
       time: 2009 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -74,9 +71,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
+
 
 # Your previous job experiences or voluntier
 experiences:
@@ -157,25 +152,19 @@ projects:
       - title: Delta
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+        link: "https://github.com/desravinessalvador29/instagram-post"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 71%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript
+        level: 64%
 
-      - name: Angular
-        level: 98%
+      - name: React
+        level: 77%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 79%
