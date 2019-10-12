@@ -157,14 +157,11 @@ projects:
 
 skills:
     toolset:
-      - name: Python
+      - name: Python & Flask
+        level: 69%
+
+      - name: Javascript & React
         level: 71%
-
-      - name: Javascript
-        level: 64%
-
-      - name: React
-        level: 77%
 
       - name: HTML5 & CSS
         level: 79%
