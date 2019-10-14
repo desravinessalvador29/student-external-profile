@@ -18,16 +18,11 @@ basic_info:
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a full stack Junior developer who has just recently completed certification. I am a highly self motivated individual who is eager to come in and contribute immediatly. Known for my ability to multi-task, juggle multiple pressing projects simultaneously and meet all deadlines. Experienced in planning, building and maintaining complex user interactive web applications.
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/men/46.jpg
+    avatar:
 
     # Contact Information
     email: desravines.salvador001@ayahoo.com #optional
@@ -58,17 +53,13 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: BS in Criminal Justice
-      university: Miami-Dade College
+    - degree: Full Stack Web Development Certification
+      university: 4Geeks Academy
       # optional
-      university_logo: https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Miami_Dade_College_logo.svg/1200px-Miami_Dade_College_logo.svg.png
-      time: 2009 - 2014
+      university_logo:
+      time: June 2019 - October 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        4Geeks Academy was a 16 week part time coding bootcamp where I recieved my cerfification. During this intense time I completed multiple projects and did numerous training replits to learn how to code. I also learned how to work in a team inviroment completing my final project with a team of 3 developers. In the academy I learned HTML/CSS, Javascript/React and Python/Flask.
           - Bullet point
           - Bullet point
 
@@ -121,39 +112,37 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here is a list of just a few projects I completed in the 4Geeks Academy. More of my work can be viewed in my Github profile. My username is desravinessalvador29.
     assignments:
-      - title: Velocity
+      - title: CamMirror
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A responsive Mirror that takes your picture and works with a fully fucntional application where you can create a user profile, save all your photos and start a paid membership with more features like video taking and unlimited photo taking."
 
-      - title: Tempo
+      - title: Contact List
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "A frontend application where you can create a contact list and a backend code that uses python to store and retrive your contacts."
 
-      - title: Atom
+      - title: Traffic Light
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "A responsive traffic light that showcases javacrict functionalities and conditional statements, users can click on any light: Red, Yellow or Green and it lights up."
 
-      - title: Delta
+      - title: To-do List
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
+        link: "#"
+        tagline: "Similar to my contact list app, the todo list has the same functions. User can create a todo list with task, and delete a specific item."
+
+      - title: Instagram News Feed (designed with bootstrap)
+        # optional
+        project_logo:
         link: "https://github.com/desravinessalvador29/instagram-post"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "An instagram news feed look-a-like created using bootstrap components. This project shows creativity and the ability to create an application resembling a multi billion dollar company."
 
 skills:
     toolset:
