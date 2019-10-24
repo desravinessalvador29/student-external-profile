@@ -3,39 +3,29 @@
 template: "online-cv"
 skin: "blue"
 
-# Personal Information
 basic_info:
 
-    # Your full name
     first_name: Salvador
     last_name: Desravines
 
-    # Define yourself in 4-5 words
     motto: Key to Success = Hard Work + Determination
 
-    # focus
-    focus: Working hard and learning new things everyday
+    focus: Working hard to provide a better life for my family
 
-    # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
       I am a full stack Junior developer who has just recently completed certification. I am a highly self motivated individual who is eager to come in and contribute immediatly. Known for my ability to multi-task, juggle multiple pressing projects simultaneously and meet all deadlines. Experienced in planning, building and maintaining complex user interactive web applications.
 
-    # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar:
 
-    # Contact Information
-    email: desravines.salvador001@ayahoo.com #optional
-    phone: (305) 748-9196 #optional
-
-
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    email: desravines.salvador001@ayahoo.com
+    phone: (305) 748-9196
+    website:
+    linkedin:
+    twitter:
     github: desravinessalvador29
 
 
-    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
         level: Professional
@@ -43,7 +33,6 @@ basic_info:
       - idiom: Creole
         level: Professional
 
-    # Interests or hobies
     interests:
       - item: Coding
 
@@ -51,11 +40,14 @@ basic_info:
 
       - item: Family
 
-# Your previous education
+      - item: Football
+
+      - item: Working Hard to Win
+
+
 education:
     - degree: Full Stack Web Development Certification
       university: 4Geeks Academy
-      # optional
       university_logo:
       time: June 2019 - October 2019
       details: |
@@ -64,82 +56,45 @@ education:
           - Bullet point
 
 
-# Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: Lyft Driver
+      time: 2018 - Present
+      company: Miami, Florida
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        Full time Lyft and Uber driver. Ive been working rideshare since November 2018. Demonstrate ability to deal peacefully with unforeseen circumstances or delays and use advanced driving techniques to better improve time management and safety.
+
+    - role: C&S Wholesale Grocers
+      time: 2016 - 2017
+      company: Miami, Florida
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# Your project portfolio
+        At C&S Wholesale Grocers I was a food selector. Ensured accuracy of work and adherence to production and safety standards. Moved pallet on an electric pallet jack or walkie-rider until full or order is complete then transport pallets to shipping dock for delivery to retail stores. Lastly, used proper wrapping techniques to ensure safety of product to prevent damage and inform supervisor of any differences in case quantity and/or description.
+
+
 projects:
     intro: >
-      Here is a list of just a few projects I completed in the 4Geeks Academy. More of my work can be viewed in my Github profile. My username is desravinessalvador29.
+      Here is a list of just a few projects I completed. More of my work can be viewed in my Github profile. My username is desravinessalvador29.
     assignments:
       - title: CamMirror
-        # optional
         project_logo:
         link: "#"
         tagline: "A responsive Mirror that takes your picture and works with a fully fucntional application where you can create a user profile, save all your photos and start a paid membership with more features like video taking and unlimited photo taking."
 
       - title: Contact List
-        # optional
         project_logo:
         link: "#"
         tagline: "A frontend application where you can create a contact list and a backend code that uses python to store and retrive your contacts."
 
       - title: Traffic Light
-        # optional
         project_logo:
         link: "#"
         tagline: "A responsive traffic light that showcases javacrict functionalities and conditional statements, users can click on any light: Red, Yellow or Green and it lights up."
 
       - title: To-do List
-        # optional
         project_logo:
         link: "#"
-        tagline: "Similar to my contact list app, the todo list has the same functions. User can create a todo list with task, and delete a specific item."
+        tagline: "Similar to my contact list app, the todo list has the same functions. User can create a todo list with task, and delete a specific task."
 
       - title: Instagram News Feed (designed with bootstrap)
-        # optional
         project_logo:
         link: "https://github.com/desravinessalvador29/instagram-post"
         tagline: "An instagram news feed look-a-like created using bootstrap components. This project shows creativity and the ability to create an application resembling a multi billion dollar company."
@@ -147,10 +102,10 @@ projects:
 skills:
     toolset:
       - name: Python & Flask
-        level: 69%
+        level: 54%
 
       - name: Javascript & React
-        level: 71%
+        level: 62%
 
       - name: HTML5 & CSS
-        level: 79%
+        level: 64%
